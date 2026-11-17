@@ -47,7 +47,7 @@ export default function Hero() {
           className="font-sans text-[11px] font-semibold tracking-[0.28em] uppercase text-gold mb-5 flex items-center gap-2.5"
         >
           <span className="w-8 h-px bg-gold inline-block" />
-          Donnybrook's Destination Venue
+          Donnybrook&apos;s Destination Venue
         </motion.p>
 
         <motion.h1

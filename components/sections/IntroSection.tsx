@@ -42,7 +42,7 @@ export default function IntroSection() {
             </p>
             <p className="text-[15px] leading-[1.85] text-mid mb-7">
               Recently renovated and proudly welcoming, we bring you quality food, cold
-              drinks, comfortable accommodation and an experience that's authentically,
+              drinks, comfortable accommodation and an experience that&apos;sauthentically,
               unapologetically Australian.
             </p>
 

@@ -57,7 +57,7 @@ export default function DrinksSection() {
                 <em className="italic text-gold">Good company.</em>
               </h2>
               <p className="text-[15px] leading-[1.85] text-white/60 mb-8">
-                Whether you're winding down after a long week or catching up with mates,
+                Whether you&apos;re winding down after a long week or catching up with mates,
                 the Donnybrook Hotel bar is your spot. Cold taps, comfortable seats,
                 live sport on the big screens, and a weekly raffle that keeps things interesting.
               </p>
