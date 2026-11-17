@@ -1,20 +1,30 @@
 import type { Metadata } from 'next'
-import { Cormorant_Garamond } from 'next/font/google'
+// import { Cormorant_Garamond } from 'next/font/google'
 import localFont from "next/font/local";
 import './globals.css'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
-const cormorant = Cormorant_Garamond({
-  subsets: ['latin'],
-  weight: ['300', '400', '500', '600', '700'],
-  style: ['normal', 'italic'],
-  variable: '--font-cormorant',
-  display: 'swap',
-})
+const cormorant = localFont({
+  src: [
+    {
+      path: "../public/fonts/CormorantGaramond-Variable.woff2",
+      weight: "300 700",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/CormorantGaramond-Italic-Variable.woff2",
+      weight: "300 700",
+      style: "italic",
+    },
+  ],
+  variable: "--font-cormorant",
+  display: "swap",
+});
 
 const inter = localFont({
   src: "../public/fonts/Inter-Variable.woff2",
+  weight: "100 900",
   variable: "--font-inter",
   display: "swap",
 });
