@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
-import { Cormorant_Garamond, Inter } from 'next/font/google'
+import { Cormorant_Garamond } from 'next/font/google'
+import localFont from "next/font/local";
 import './globals.css'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
@@ -12,12 +13,11 @@ const cormorant = Cormorant_Garamond({
   display: 'swap',
 })
 
-const inter = Inter({
-  subsets: ['latin'],
-  weight: ['300', '400', '500', '600'],
-  variable: '--font-inter',
-  display: 'swap',
-})
+const inter = localFont({
+  src: "../public/fonts/Inter-Variable.woff2",
+  variable: "--font-inter",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: 'Donnybrook Hotel — Western Australia',
