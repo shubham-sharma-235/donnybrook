@@ -52,7 +52,7 @@ export default function FoodHero() {
           <ScrollReveal delay={0.1}>
             <p className="text-[15px] leading-[1.85] text-mid mb-6">
               The Donnybrook Bistro serves hearty, satisfying meals crafted from quality
-              ingredients. Whether you're stopping in for a counter lunch or settling in
+              ingredients. Whether you&apos;re stopping in for a counter lunch or settling in
               for a full evening meal, every dish is made to be remembered.
             </p>
             <div className="flex gap-3 flex-wrap">

@@ -48,7 +48,7 @@ export default function AccommodationPage() {
             <div className="bg-sage border border-border rounded-sm p-8 sm:p-12">
               <div className="flex items-center gap-2.5 mb-6 text-[10px] font-semibold tracking-[0.24em] uppercase text-forest">
                 <span className="w-6 h-[1.5px] bg-forest inline-block" />
-                What's Included
+                What&apos;sIncluded
               </div>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
                 {[
