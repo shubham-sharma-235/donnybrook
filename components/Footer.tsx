@@ -30,7 +30,7 @@ export default function Footer() {
                 Western Australia
               </span>
             </div>
-            <p className="text-[13px] text-white/38 leading-[1.75] max-w-[260px] mb-5">
+            <p className="text-[13px] text-[#777] leading-[1.75] max-w-[260px] mb-5">
               Your home away from home in Donnybrook — the apple capital of Western
               Australia. Bar, Bistro, Accommodation & Beer Garden.
             </p>
@@ -61,7 +61,7 @@ export default function Footer() {
             <h4 className="font-sans text-[9px] font-semibold tracking-[0.22em] uppercase text-sage-3 mb-4">
               Explore
             </h4>
-            <ul className="flex flex-col gap-2.5">
+            <ul className="flex flex-col gap-2.5 text-[#777]">
               {exploreLinks.map((link) => (
                 <li key={link.href}>
                   <Link
@@ -80,7 +80,7 @@ export default function Footer() {
             <h4 className="font-sans text-[9px] font-semibold tracking-[0.22em] uppercase text-sage-3 mb-4">
               Facilities
             </h4>
-            <ul className="flex flex-col gap-2.5">
+            <ul className="flex flex-col gap-2.5 text-[#777]">
               {facilityLinks.map((link) => (
                 <li key={link.label}>
                   <Link
@@ -99,7 +99,7 @@ export default function Footer() {
             <h4 className="font-sans text-[9px] font-semibold tracking-[0.22em] uppercase text-sage-3 mb-4">
               Contact
             </h4>
-            <div className="flex flex-col gap-1.5 text-[13px] text-white/38 leading-[1.6]">
+            <div className="flex flex-col gap-1.5 text-[13px] text-white/38 leading-[1.6] text-[#777]">
               <span>64 South Western Hwy<br />Donnybrook WA 6239</span>
               <a href="tel:0897311017" className="hover:text-white transition-colors">
                 08 9731 1017

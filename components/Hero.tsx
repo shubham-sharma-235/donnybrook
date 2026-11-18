@@ -17,7 +17,7 @@ export default function Hero() {
           sizes="100vw"
         />
       </div>
-      <div className="absolute inset-0 bg-gradient-to-b from-dark/10 via-dark/30 to-dark/88" />
+      <div className="absolute inset-0 bg-gradient-to-b from-dark/30 via-dark/50 to-dark/80" />
 
       {/* Destination pill row */}
       <div className="absolute top-0 left-0 right-0 z-10 flex justify-center pt-[100px] pb-0 pointer-events-none">
@@ -44,9 +44,9 @@ export default function Hero() {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="font-sans text-[11px] font-semibold tracking-[0.28em] uppercase text-gold mb-5 flex items-center gap-2.5"
+          className="font-sans text-[11px] font-semibold tracking-[0.28em] uppercase text-[#FFD700] mb-5 flex items-center gap-2.5"
         >
-          <span className="w-8 h-px bg-gold inline-block" />
+          <span className="w-8 h-px bg-[#FFD700] inline-block" />
           Donnybrook&apos;s Destination Venue
         </motion.p>
 
@@ -73,7 +73,7 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.55 }}
           className="text-[clamp(14px,1.4vw,17px)] text-white/55 max-w-[520px] leading-[1.8] mb-10"
         >
-          A welcoming destination for working professionals and locals alike —
+          A welcoming destination for working professionals and locals alike
           fresh bistro meals, cold drinks, comfortable rooms and a space to genuinely unwind,
           two hours south of Perth in the heart of apple country.
         </motion.p>
@@ -108,7 +108,7 @@ export default function Hero() {
       </div>
 
       {/* Stats bar */}
-      <div className="absolute left-5 sm:left-10 lg:left-20 bottom-10 z-10 hidden lg:flex gap-px">
+      {/* <div className="absolute left-5 sm:left-10 lg:left-20 bottom-10 z-10 hidden lg:flex gap-px">
         {[
           { n: 'Bistro', l: 'Open Daily' },
           { n: 'Bar', l: 'Cold Drinks' },
@@ -120,7 +120,7 @@ export default function Hero() {
             <span className="block text-[9px] tracking-[0.14em] uppercase text-white/38 mt-1">{chip.l}</span>
           </div>
         ))}
-      </div>
+      </div> */}
 
       <div className="absolute right-5 sm:right-10 lg:right-20 bottom-10 z-10 flex flex-col items-center gap-2.5 text-[9px] tracking-[0.2em] uppercase text-white/28">
         <div className="w-px h-12 bg-white/18 scroll-indicator" />
