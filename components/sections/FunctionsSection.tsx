@@ -30,7 +30,7 @@ export default function FunctionsSection() {
                 <em className="italic text-forest">We&apos;ll take care of it.</em>
               </h2>
               <p className="text-[15px] leading-[1.85] text-mid mb-8">
-                The Donnybrook Hotel is Donnybrook&apos;s local venue for private functions,
+                The Donnybrook Hotel is Donnybrook's local venue for private functions,
                 catered events and small celebrations. From intimate dinners to community
                 gatherings, we work with you to make every occasion effortless.
               </p>

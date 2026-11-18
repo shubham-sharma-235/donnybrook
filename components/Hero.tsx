@@ -17,7 +17,7 @@ export default function Hero() {
           sizes="100vw"
         />
       </div>
-      <div className="absolute inset-0 bg-gradient-to-b from-dark/40 via-dark/50 to-dark/80" />
+      <div className="absolute inset-0 bg-gradient-to-b from-dark/10 via-dark/30 to-dark/88" />
 
       {/* Destination pill row */}
       <div className="absolute top-0 left-0 right-0 z-10 flex justify-center pt-[100px] pb-0 pointer-events-none">
@@ -47,7 +47,7 @@ export default function Hero() {
           className="font-sans text-[11px] font-semibold tracking-[0.28em] uppercase text-gold mb-5 flex items-center gap-2.5"
         >
           <span className="w-8 h-px bg-gold inline-block" />
-          Donnybrook&apos;s Destination Venue
+          Donnybrook's Destination Venue
         </motion.p>
 
         <motion.h1
@@ -108,7 +108,7 @@ export default function Hero() {
       </div>
 
       {/* Stats bar */}
-      {/* <div className="absolute left-5 sm:left-10 lg:left-20 bottom-10 z-10 hidden lg:flex gap-px">
+      <div className="absolute left-5 sm:left-10 lg:left-20 bottom-10 z-10 hidden lg:flex gap-px">
         {[
           { n: 'Bistro', l: 'Open Daily' },
           { n: 'Bar', l: 'Cold Drinks' },
@@ -120,7 +120,7 @@ export default function Hero() {
             <span className="block text-[9px] tracking-[0.14em] uppercase text-white/38 mt-1">{chip.l}</span>
           </div>
         ))}
-      </div> */}
+      </div>
 
       <div className="absolute right-5 sm:right-10 lg:right-20 bottom-10 z-10 flex flex-col items-center gap-2.5 text-[9px] tracking-[0.2em] uppercase text-white/28">
         <div className="w-px h-12 bg-white/18 scroll-indicator" />

@@ -57,7 +57,7 @@ export default function DiningSplit() {
             </h2>
             <p className="text-[15px] leading-[1.85] text-mid mb-7">
               The Donnybrook Bistro serves honest, satisfying meals made with care. From
-              counter lunches to hearty dinners, there&apos;s always something worth coming
+              counter lunches to hearty dinners, there's always something worth coming
               back for.
             </p>
             <ul className="flex flex-col gap-2.5 mb-9">
