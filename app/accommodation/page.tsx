@@ -34,7 +34,7 @@ export default function AccommodationPage() {
             </ScrollReveal>
             <ScrollReveal delay={0.1}>
               <p className="text-[15px] leading-[1.85] text-mid">
-                Whether you're in Donnybrook for a quick stopover or making a full weekend
+                Whether you&apos;re in Donnybrook for a quick stopover or making a full weekend
                 of it, our rooms offer comfort, convenience and genuine country
                 hospitality right on the South Western Highway.
               </p>

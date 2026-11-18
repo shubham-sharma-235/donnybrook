@@ -28,7 +28,7 @@ export default function ContactPage() {
             {/* Info */}
             <ScrollReveal>
               <h2 className="font-serif text-[clamp(32px,4vw,54px)] font-normal leading-[1.08] text-dark mb-9">
-                We'd love to <em className="italic text-forest">hear from you</em>
+                We&apos;d love to <em className="italic text-forest">hear from you</em>
               </h2>
 
               <div className="flex flex-col gap-5 mb-9">

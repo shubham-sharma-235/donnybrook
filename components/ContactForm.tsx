@@ -13,11 +13,11 @@ export default function ContactForm() {
   return (
     <div className="bg-sage rounded-sm p-7 sm:p-12 border border-border">
       <h3 className="font-serif text-[28px] font-semibold text-dark mb-1">Send an Enquiry</h3>
-      <p className="text-[14px] text-muted mb-8">We'll get back to you as soon as possible.</p>
+      <p className="text-[14px] text-muted mb-8">We&apos;ll get back to you as soon as possible.</p>
 
       {submitted ? (
         <div className="p-4 bg-forest/8 rounded-sm text-[14px] text-forest text-center">
-          ✓ Thanks! We'll be in touch soon.
+          ✓ Thanks! We&apos;ll be in touch soon.
         </div>
       ) : (
         <form onSubmit={handleSubmit} className="space-y-3.5">
